@@ -1,0 +1,10 @@
+python send_wsdl.py
+python send_wsdl2.py
+python send_wsdl3.py
+python send_wsdl4.py
+python send_wsdl-add.py
+python send_wsdl-add1.py
+python send_wsdl-add2.py
+python send_wsdl-sub.py
+python send_wsdl-sub1.py
+python send_wsdl-sub2.py
