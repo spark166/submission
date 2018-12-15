@@ -1,3 +1,6 @@
+registry_hard = '130.85.251.172' 
+replica_hard = '130.85.241.172'
+
 from zeep import Client
 import socket  #socket library
 import os
@@ -6,8 +9,6 @@ import pyping
 PORT = 12345
 PORT2 = 12346
 #registry_hard = '127.0.0.1'  #localhost
-registry_hard = '130.85.251.172' 
-replica_hard = '130.85.241.172'
 #host = socket.gethostname()  #return a hostname of this machine
 
 mssg = 'Request Adder'

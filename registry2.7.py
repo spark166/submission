@@ -1,3 +1,5 @@
+replica_hard = '130.85.241.172'    #########################################need to hard code############
+
 """
 Multi-threaded server.  Once a connection is accepted, a new 
 thread is created to serve the client.
@@ -15,7 +17,6 @@ hostname = socket.gethostname()
 host = socket.gethostbyname(hostname)
 print('Registry is running at: ', host)
 
-replica_hard = '130.85.241.172'    #########################################need to hard code############
 
 add_wsdl = {}  #dict to hold wsdl addresses
 add_load = {}  #load dictionary
